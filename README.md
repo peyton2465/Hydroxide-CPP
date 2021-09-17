@@ -23,15 +23,15 @@ Planned features:
 - HttpSpy (using actual packet logging, not just hooking Lua functions)
 
 ## Building from source
-Building from source is pretty straight forward, just clone the repository in Visual Studio. 
+As of 9/17/21, community members have recommended to redact Lua internals, which renders building from source useless. You may create your own forks and implement your own versions of Lua's C API if you so wish. 
 
-Once cloned, there are a few dependencies you will need to install.
-
+### External Libraries (if you plan on building from source with your own Lua API)
 Microsoft's [vcpkg](https://github.com/microsoft/vcpkg) is recommended, just to make the installation process easier on you. 
 
-`vcpkg install minhook:x86-windows-static`
+`vcpkg install minhook:x86-windows-static` (DirectX 11 Hooking)
 
-`vcpkg install nlohmann-json:x86-windows-static`
+`vcpkg install nlohmann-json:x86-windows-static` (Parsing instance properties)
+
 
 ## Credits
 Default Instance Explorer Icons: https://github.com/Elttob/Vanilla
