@@ -23,7 +23,7 @@ Planned features:
 - HttpSpy (using actual packet logging, not just hooking Lua functions)
 
 ## Building from source
-As of 9/17/21, community members have recommended to redact Lua internals, which renders building from source useless. You may create your own forks and implement your own versions of Lua's C API if you so wish. 
+**As of 9/17/21, community members have recommended to redact Lua internals**, which renders building from source useless. You may create your own forks and implement your own versions of Lua's C API if you so wish. 
 
 ### External Libraries (if you plan on building from source with your own Lua API)
 Microsoft's [vcpkg](https://github.com/microsoft/vcpkg) is recommended, just to make the installation process easier on you. 
