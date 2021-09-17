@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\api.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\constants.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\object.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\bypass\callcheck.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\bypass\console.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\object\task_scheduler.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\object\script_context.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\object\instance.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\mem.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\object\data_model.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\object\player.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="security\unlink.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\string.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\gc.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\hash.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\vm.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\memory.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\function.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\call.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\auxiliary.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\lua\thread.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\bypass\retcheck.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\kiero.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\directx\directx.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\directx\hook.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sections\explorer.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sections\remote_spy.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sections\upvalue_scanner.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sections\constants_scanner.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sections\script_scanner.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sections\closure_spy.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sections\http_spy.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\stb\image.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\imgui\misc.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sections\assets\icons.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rbx\object\script_signal.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\file.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libraries\imgui\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imgui_impl_dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imgui_impl_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
