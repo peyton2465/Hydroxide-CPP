@@ -65,20 +65,20 @@ export namespace rbx {
 			rbx::script_context* script_context;
 		};
 
-		using iterator = std::vector<std::shared_ptr<job>>::iterator;
+		using reverse_iterator = std::vector<std::shared_ptr<job>>::reverse_iterator;
 	private:
 		std::uint8_t _[300];
-		iterator _begin, _end;
+		reverse_iterator _end, _begin;
 	public:
 		task_scheduler() = delete;
 		task_scheduler(const task_scheduler&) = delete;
 		task_scheduler(const task_scheduler&&) = delete;
 
-		iterator begin() {
+		reverse_iterator begin() {
 			return _begin;
 		}
 
-		iterator end() {
+		reverse_iterator end() {
 			return _end;
 		}
 
